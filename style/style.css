@@ -22,15 +22,17 @@
 body {
     background-color: var(--background);
     font-family: var(--fonte2);
+    padding: 10px;
 }
 
 section {
     box-shadow: 1px 1px 8px black ;
     background-color: var(--primary);
-    width: 600px;
+    max-width: 600px;
     height: 550px;
     margin: 40px auto;
-    border-radius: 40px;
+    border-radius: 15px 15px 15px 15px;
+    padding: 5px;
 }
 
 
@@ -67,7 +69,7 @@ input#txt {
     margin-right: 10px;
     outline: none;
     font-family: var(--fonte2);
-    font-size: 20px;
+    font-size: 18px;
     color: var(--secundary2);
     font-weight: bold;
 }
@@ -98,7 +100,7 @@ input#botao {
 
 #res {
     margin: 0 auto;
-    padding:30px;
+    padding: 5px 15px;
     max-width: 500px;
     height: 300px;
     border: 1px solid var(--primary2);
@@ -106,7 +108,7 @@ input#botao {
     border-style: dashed;
     margin-bottom: 10px;
     color:var(--secundary2);
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
 }
 
