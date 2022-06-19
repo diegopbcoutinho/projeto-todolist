@@ -109,3 +109,11 @@ input#botao {
     font-size: 25px;
     font-weight: bold;
 }
+
+div#res p:hover {
+    text-decoration: line-through double var(--background);
+}
+
+div#res p {
+    max-width: fit-content;
+}
