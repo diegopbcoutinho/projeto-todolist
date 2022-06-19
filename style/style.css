@@ -67,7 +67,7 @@ input#txt {
     margin-right: 10px;
     outline: none;
     font-family: var(--fonte2);
-    font-size: 25px;
+    font-size: 20px;
     color: var(--secundary2);
     font-weight: bold;
 }
@@ -106,7 +106,7 @@ input#botao {
     border-style: dashed;
     margin-bottom: 10px;
     color:var(--secundary2);
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
 }
 
