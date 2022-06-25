@@ -2,16 +2,31 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 
+.dark-mode:root {
+    --background: #2c2b4b;
+    --primary: #9c7a9d;
+    --primary2: #2c2b4b;
+    --secundary: #2c2b4b;
+    --secundary2: #2c2b4b;
+    --text: #a75293;
+    --label: #2c2b4b;
+    --white: #FFFFFF;
+    --fonte1: 'Work Sans', sans-serif;
+    --fonte2: 'Shadows Into Light', cursive;
+}
+
 :root {
     --background: #9c7a9d;
     --primary: #f8dcb4;
     --primary2: #2c2b4b;
     --secundary: #a75293;
     --secundary2: #2c2b4b;
+    --text: #2c2b4b;
+    --label:#2c2b4b;
     --white: #FFFFFF;
     --fonte1: 'Work Sans', sans-serif;
     --fonte2: 'Shadows Into Light', cursive;
-}
+} 
 
 * {
     margin: 0;
@@ -35,14 +50,34 @@ section {
     padding: 5px;
 }
 
+div.heading {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 
-div.heading > h1 {
+div#alinhamento {
+    display: flex;
+    align-items:center;
+    max-width: 550px;
+    justify-content: center;
+}
+
+label#tog {
+    color: var(--label);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+div#alinhamento > h1 {
     font-family: var(--fonte1);
     text-align: center;
     padding: 10px;
     color: var(--primary2);
     font-size: 32px;
     margin-bottom: 20px;
+    width: fit-content;
 }
 
 #label {
@@ -83,7 +118,7 @@ input#botao {
     background-color: var(--secundary);
     border: 0.5px solid var(--secundary);
     font-size: 16px;
-    color: var(--secundary2);
+    color: var(--text);
     font-family: var(--fonte2);
     font-weight: bold;
 }
